@@ -1,0 +1,44 @@
+<div id="myForm">
+    <form class="container"(submit)="onSubmit()">
+      <div class="row">
+      <div class="col-md-6 form-group">
+        <label for="nomeAssinaturaInput1">Nome </label>
+        <input type="text" class="form-control" id="nomeAssinaturaInput1" placeholder="Assinatura">
+      </div>
+      <div class="col-md-6 form-group">
+        <label for="cargaHorariaInput">Carga horaria de horas aula  </label>
+        <input type="number" class="form-control" id="cargaHorariaInput" placeholder="0">
+      </div>
+      <div class="col-md-6 form-group">
+        <label for="escolaInput">Escola  </label>
+        <input type="text" class="form-control" id="escolaInput" placeholder="">
+      </div>
+      <div class="col-md-6 form-group">
+        <label for="profesorInput">Profesor</label>
+        <select class="form-control" id="profesorInput">
+          <option>Otavio</option>
+          <option>Carla</option>
+          <option>Leandro</option>
+          <option>Claudia</option>
+        </select>
+      </div>
+    <span>Materia opcional</span>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="opcionalRadioInput" id="opcionalRadioInput" value="opcionalSim" checked>
+        <label class="form-check-label" for="opcionalRadioInput">
+          Sim
+        </label>
+      </div>
+      <div class="col-md-6 form-group">
+        <input class="form-check-input" type="radio" name="opcionalRadioInput" id="opcionalNaoRadioInput" value="opcionalNao">
+        <label class="form-check-label" for="opcionalRadioInput">
+          Nao
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"  id="submitBtn">Enviar</button>
+
+    
+    </form>
+   
+  </div>
