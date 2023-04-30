@@ -42,3 +42,8 @@ button[type="submit"] {
   display: block;
   margin-left: auto;
 }
+#myForm{
+  display:flex;
+  flex-direction: column;
+  
+}
