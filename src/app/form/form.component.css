@@ -47,3 +47,6 @@ button[type="submit"] {
   flex-direction: column;
   
 }
+body{
+  background-image: ('../assets/background.png');
+}
