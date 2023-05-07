@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { OutletComponent } from './outlet/outlet.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

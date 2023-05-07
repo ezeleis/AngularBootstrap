@@ -8,6 +8,8 @@ import { FormComponent } from './form/form.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { ItemCardComponent } from './item-card/item-card.component';
+import { BuscaComponent } from './busca/busca.component';
+import { OutletComponent } from './outlet/outlet.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ItemCardComponent } from './item-card/item-card.component';
     FormComponent,
     NavbarComponent,
     CardComponent,
-    ItemCardComponent
+    ItemCardComponent,
+    BuscaComponent,
+    OutletComponent
   ],
   imports: [
     BrowserModule,
